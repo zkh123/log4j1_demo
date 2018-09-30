@@ -1,0 +1,925 @@
+2018-09-30 16:00:47
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.74-b02 mixed mode):
+
+"Attach Listener" #71 daemon prio=9 os_prio=0 tid=0x00007f7a30001000 nid=0x7ae1 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"pool-2-thread-50" #70 prio=5 os_prio=0 tid=0x00007f7b1898d000 nid=0x738a waiting for monitor entry [0x00007f7a34753000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0d73780> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-49" #69 prio=5 os_prio=0 tid=0x00007f7b1898b000 nid=0x7389 waiting for monitor entry [0x00007f7a34854000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bb5490> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-48" #68 prio=5 os_prio=0 tid=0x00007f7b18989800 nid=0x7388 waiting for monitor entry [0x00007f7a34955000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bd51f0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-47" #67 prio=5 os_prio=0 tid=0x00007f7b18987800 nid=0x7387 waiting for monitor entry [0x00007f7a34a56000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bc5230> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-46" #66 prio=5 os_prio=0 tid=0x00007f7b18986000 nid=0x7386 waiting for monitor entry [0x00007f7a34b57000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0b7b910> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-45" #65 prio=5 os_prio=0 tid=0x00007f7b18984000 nid=0x7385 waiting for monitor entry [0x00007f7a34c58000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0d9e6b8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-44" #64 prio=5 os_prio=0 tid=0x00007f7b18982800 nid=0x7384 waiting for monitor entry [0x00007f7a34d59000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bed1a8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-43" #63 prio=5 os_prio=0 tid=0x00007f7b18980800 nid=0x7383 waiting for monitor entry [0x00007f7a34e5a000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bd60b0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-42" #62 prio=5 os_prio=0 tid=0x00007f7b1897f000 nid=0x7382 waiting for monitor entry [0x00007f7a34f5b000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bd6970> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-41" #61 prio=5 os_prio=0 tid=0x00007f7b1897d000 nid=0x7381 waiting for monitor entry [0x00007f7a3505c000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bd7e78> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-40" #60 prio=5 os_prio=0 tid=0x00007f7b1897b000 nid=0x7380 waiting for monitor entry [0x00007f7a3515d000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0da1e48> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-39" #59 prio=5 os_prio=0 tid=0x00007f7b18979800 nid=0x737f waiting for monitor entry [0x00007f7a3525e000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0bf1b90> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-38" #58 prio=5 os_prio=0 tid=0x00007f7b18977800 nid=0x737e waiting for monitor entry [0x00007f7a3535f000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0b98a08> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-37" #57 prio=5 os_prio=0 tid=0x00007f7b18976000 nid=0x737d waiting for monitor entry [0x00007f7a35460000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0be51c0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-36" #56 prio=5 os_prio=0 tid=0x00007f7b18974800 nid=0x737c waiting for monitor entry [0x00007f7a35561000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0b9a8f0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-35" #55 prio=5 os_prio=0 tid=0x00007f7b18972800 nid=0x737b waiting for monitor entry [0x00007f7a35662000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0be61e0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-34" #54 prio=5 os_prio=0 tid=0x00007f7b18970800 nid=0x737a waiting for monitor entry [0x00007f7a35763000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0c0d150> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-33" #53 prio=5 os_prio=0 tid=0x00007f7b1896f000 nid=0x7379 waiting for monitor entry [0x00007f7a35864000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0ecae88> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-32" #52 prio=5 os_prio=0 tid=0x00007f7b1896d000 nid=0x7378 waiting for monitor entry [0x00007f7a35965000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0ea88d8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-31" #51 prio=5 os_prio=0 tid=0x00007f7b1896b800 nid=0x7377 waiting for monitor entry [0x00007f7a35a66000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0ec9908> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-30" #50 prio=5 os_prio=0 tid=0x00007f7b18969800 nid=0x7376 waiting for monitor entry [0x00007f7a35b67000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f26f58> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-29" #49 prio=5 os_prio=0 tid=0x00007f7b18967800 nid=0x7375 waiting for monitor entry [0x00007f7a35c68000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- locked <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f4b9e8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-28" #48 prio=5 os_prio=0 tid=0x00007f7b18965800 nid=0x7374 waiting for monitor entry [0x00007f7a35d69000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f8cd08> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-27" #47 prio=5 os_prio=0 tid=0x00007f7b18964000 nid=0x7373 waiting for monitor entry [0x00007f7a35e6a000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f4ce30> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-26" #46 prio=5 os_prio=0 tid=0x00007f7b18962000 nid=0x7372 waiting for monitor entry [0x00007f7a35f6b000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f6d950> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-25" #45 prio=5 os_prio=0 tid=0x00007f7b18960800 nid=0x7371 waiting for monitor entry [0x00007f7a3606c000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f8d368> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-24" #44 prio=5 os_prio=0 tid=0x00007f7b1895e800 nid=0x7370 waiting for monitor entry [0x00007f7a3616d000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f642b0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-23" #43 prio=5 os_prio=0 tid=0x00007f7b1895d000 nid=0x736f waiting for monitor entry [0x00007f7a48194000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b0f8b250> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-22" #42 prio=5 os_prio=0 tid=0x00007f7b1895b000 nid=0x736e waiting for monitor entry [0x00007f7a48295000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b101d250> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-21" #41 prio=5 os_prio=0 tid=0x00007f7b18959800 nid=0x736d waiting for monitor entry [0x00007f7a48396000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b10203f8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-20" #40 prio=5 os_prio=0 tid=0x00007f7b18958000 nid=0x736c waiting for monitor entry [0x00007f7a48497000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b1064470> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-19" #39 prio=5 os_prio=0 tid=0x00007f7b18956000 nid=0x736b waiting for monitor entry [0x00007f7a48598000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b106ca20> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-18" #38 prio=5 os_prio=0 tid=0x00007f7b18954800 nid=0x736a waiting for monitor entry [0x00007f7a48699000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b106e4c8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-17" #37 prio=5 os_prio=0 tid=0x00007f7b18952800 nid=0x7369 waiting for monitor entry [0x00007f7a4879a000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b107ef70> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-16" #36 prio=5 os_prio=0 tid=0x00007f7b18951000 nid=0x7368 waiting for monitor entry [0x00007f7a4889b000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b1045d90> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-15" #35 prio=5 os_prio=0 tid=0x00007f7b1894f000 nid=0x7367 waiting for monitor entry [0x00007f7a4899c000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b10c62b8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-14" #34 prio=5 os_prio=0 tid=0x00007f7b1894d800 nid=0x7366 waiting for monitor entry [0x00007f7a48a9d000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b10e0c08> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-13" #33 prio=5 os_prio=0 tid=0x00007f7b1894b800 nid=0x7365 waiting for monitor entry [0x00007f7a48b9e000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b113eb70> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-12" #32 prio=5 os_prio=0 tid=0x00007f7b1894a000 nid=0x7364 waiting for monitor entry [0x00007f7a48c9f000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11478e0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-11" #31 prio=5 os_prio=0 tid=0x00007f7b18948000 nid=0x7363 waiting for monitor entry [0x00007f7a48da0000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b1148960> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-10" #30 prio=5 os_prio=0 tid=0x00007f7b18946800 nid=0x7362 waiting for monitor entry [0x00007f7a48ea1000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b113fa30> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-9" #29 prio=5 os_prio=0 tid=0x00007f7b18944800 nid=0x7361 waiting for monitor entry [0x00007f7a48fa2000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b1199ac8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-8" #28 prio=5 os_prio=0 tid=0x00007f7b18943000 nid=0x7360 waiting for monitor entry [0x00007f7a490a3000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11a5538> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-7" #27 prio=5 os_prio=0 tid=0x00007f7b18941000 nid=0x735f runnable [0x00007f7a491a4000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	- locked <0x00000000b0cf8700> (a java.io.BufferedOutputStream)
+	at java.io.PrintStream.write(PrintStream.java:482)
+	- locked <0x00000000b0cf86e0> (a java.io.PrintStream)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	- locked <0x00000000b0cf86c8> (a java.io.OutputStreamWriter)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.log4j.helpers.QuietWriter.flush(QuietWriter.java:59)
+	at org.apache.log4j.WriterAppender.subAppend(WriterAppender.java:324)
+	at org.apache.log4j.WriterAppender.append(WriterAppender.java:162)
+	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	- locked <0x00000000b0cf7db8> (a org.apache.log4j.ConsoleAppender)
+	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	- locked <0x00000000b0cef5a8> (a org.apache.log4j.spi.RootLogger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11d5530> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-6" #26 prio=5 os_prio=0 tid=0x00007f7b1893f800 nid=0x735e waiting for monitor entry [0x00007f7a492a5000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11fa4b8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-5" #25 prio=5 os_prio=0 tid=0x00007f7b1893e000 nid=0x735d waiting for monitor entry [0x00007f7a493a6000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b1219ce8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-4" #24 prio=5 os_prio=0 tid=0x00007f7b1893c000 nid=0x735c waiting for monitor entry [0x00007f7a494a7000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b121a2e8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-3" #23 prio=5 os_prio=0 tid=0x00007f7b1893a800 nid=0x735b waiting for monitor entry [0x00007f7a495a8000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11ee938> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-2" #22 prio=5 os_prio=0 tid=0x00007f7b18938800 nid=0x735a waiting for monitor entry [0x00007f7a496a9000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b11eedd8> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"pool-2-thread-1" #21 prio=5 os_prio=0 tid=0x00007f7b18937800 nid=0x7359 waiting for monitor entry [0x00007f7a497aa000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at org.apache.log4j.Category.callAppenders(Category.java:204)
+	- waiting to lock <0x00000000b0cf48f0> (a org.apache.log4j.Logger)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.info(Category.java:666)
+	at com.hlj.risk.pisk.service.AppPreAuditService.run(AppPreAuditService.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000000b12b0b68> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"Service Thread" #20 daemon prio=9 os_prio=0 tid=0x00007f7b184d8000 nid=0x734e runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C1 CompilerThread14" #19 daemon prio=9 os_prio=0 tid=0x00007f7b184d5000 nid=0x734d waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C1 CompilerThread13" #18 daemon prio=9 os_prio=0 tid=0x00007f7b184d3000 nid=0x734c waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C1 CompilerThread12" #17 daemon prio=9 os_prio=0 tid=0x00007f7b184d0800 nid=0x734b waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C1 CompilerThread11" #16 daemon prio=9 os_prio=0 tid=0x00007f7b184ce800 nid=0x734a waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C1 CompilerThread10" #15 daemon prio=9 os_prio=0 tid=0x00007f7b184cd000 nid=0x7349 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread9" #14 daemon prio=9 os_prio=0 tid=0x00007f7b184ca800 nid=0x7348 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread8" #13 daemon prio=9 os_prio=0 tid=0x00007f7b184c8800 nid=0x7347 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread7" #12 daemon prio=9 os_prio=0 tid=0x00007f7b184c6800 nid=0x7346 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread6" #11 daemon prio=9 os_prio=0 tid=0x00007f7b184c4000 nid=0x7345 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread5" #10 daemon prio=9 os_prio=0 tid=0x00007f7b184c2000 nid=0x7344 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread4" #9 daemon prio=9 os_prio=0 tid=0x00007f7b184b8000 nid=0x7343 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread3" #8 daemon prio=9 os_prio=0 tid=0x00007f7b184b5800 nid=0x7342 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread2" #7 daemon prio=9 os_prio=0 tid=0x00007f7b184b3800 nid=0x7341 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread1" #6 daemon prio=9 os_prio=0 tid=0x00007f7b184b2000 nid=0x7340 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread0" #5 daemon prio=9 os_prio=0 tid=0x00007f7b184af000 nid=0x733f waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007f7b184ad800 nid=0x733e runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007f7b1847a800 nid=0x733d in Object.wait() [0x00007f7a4aebd000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000b0b68a70> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x00000000b0b68a70> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+   Locked ownable synchronizers:
+	- None
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007f7b18476000 nid=0x733c in Object.wait() [0x00007f7a4afbe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000b12d2230> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x00000000b12d2230> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+   Locked ownable synchronizers:
+	- None
+
+"main" #1 prio=5 os_prio=0 tid=0x00007f7b18008800 nid=0x731e sleeping[0x00007f7b1d074000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.hlj.risk.pisk.service.ReadUserService.readFile(ReadUserService.java:30)
+	at com.hlj.risk.pisk.main.Start.main(Start.java:23)
+
+   Locked ownable synchronizers:
+	- None
+
+"VM Thread" os_prio=0 tid=0x00007f7b1846e800 nid=0x733b runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007f7b1801d800 nid=0x731f runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007f7b1801f800 nid=0x7320 runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00007f7b18021000 nid=0x7321 runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00007f7b18023000 nid=0x7322 runnable 
+
+"GC task thread#4 (ParallelGC)" os_prio=0 tid=0x00007f7b18024800 nid=0x7323 runnable 
+
+"GC task thread#5 (ParallelGC)" os_prio=0 tid=0x00007f7b18026800 nid=0x7324 runnable 
+
+"GC task thread#6 (ParallelGC)" os_prio=0 tid=0x00007f7b18028000 nid=0x7325 runnable 
+
+"GC task thread#7 (ParallelGC)" os_prio=0 tid=0x00007f7b1802a000 nid=0x7326 runnable 
+
+"GC task thread#8 (ParallelGC)" os_prio=0 tid=0x00007f7b1802b800 nid=0x7327 runnable 
+
+"GC task thread#9 (ParallelGC)" os_prio=0 tid=0x00007f7b1802d800 nid=0x7328 runnable 
+
+"GC task thread#10 (ParallelGC)" os_prio=0 tid=0x00007f7b1802f000 nid=0x7329 runnable 
+
+"GC task thread#11 (ParallelGC)" os_prio=0 tid=0x00007f7b18031000 nid=0x732a runnable 
+
+"GC task thread#12 (ParallelGC)" os_prio=0 tid=0x00007f7b18032800 nid=0x732b runnable 
+
+"GC task thread#13 (ParallelGC)" os_prio=0 tid=0x00007f7b18034800 nid=0x732c runnable 
+
+"GC task thread#14 (ParallelGC)" os_prio=0 tid=0x00007f7b18036000 nid=0x732d runnable 
+
+"GC task thread#15 (ParallelGC)" os_prio=0 tid=0x00007f7b18038000 nid=0x732e runnable 
+
+"GC task thread#16 (ParallelGC)" os_prio=0 tid=0x00007f7b18039800 nid=0x732f runnable 
+
+"GC task thread#17 (ParallelGC)" os_prio=0 tid=0x00007f7b1803b800 nid=0x7330 runnable 
+
+"GC task thread#18 (ParallelGC)" os_prio=0 tid=0x00007f7b1803d000 nid=0x7331 runnable 
+
+"GC task thread#19 (ParallelGC)" os_prio=0 tid=0x00007f7b1803f000 nid=0x7332 runnable 
+
+"GC task thread#20 (ParallelGC)" os_prio=0 tid=0x00007f7b18040800 nid=0x7333 runnable 
+
+"GC task thread#21 (ParallelGC)" os_prio=0 tid=0x00007f7b18042800 nid=0x7334 runnable 
+
+"GC task thread#22 (ParallelGC)" os_prio=0 tid=0x00007f7b18044000 nid=0x7335 runnable 
+
+"GC task thread#23 (ParallelGC)" os_prio=0 tid=0x00007f7b18046000 nid=0x7336 runnable 
+
+"GC task thread#24 (ParallelGC)" os_prio=0 tid=0x00007f7b18047800 nid=0x7337 runnable 
+
+"GC task thread#25 (ParallelGC)" os_prio=0 tid=0x00007f7b18049800 nid=0x7338 runnable 
+
+"GC task thread#26 (ParallelGC)" os_prio=0 tid=0x00007f7b1804b000 nid=0x7339 runnable 
+
+"GC task thread#27 (ParallelGC)" os_prio=0 tid=0x00007f7b1804d000 nid=0x733a runnable 
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007f7b184db000 nid=0x734f waiting on condition 
+
+JNI global references: 29
+
